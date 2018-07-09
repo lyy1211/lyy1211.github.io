@@ -11,6 +11,6 @@ let server=http.createServer(function(request,response){
     })
     
 })
-server.listen(5050,'0,0,0,0',function(){
+server.listen(5050,'0.0.0.0',function(){
     console.log('监听成功');
 })
